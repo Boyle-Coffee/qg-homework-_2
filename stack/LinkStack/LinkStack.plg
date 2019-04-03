@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LinkStack - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP39E7.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/LinkStack.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\325\qg\QG训练营第二次培训\QG训练营第二次培训\栈以及栈的应用\栈\代码和头文件\LinkStack\LinkStack.c"
+]
+Creating command line "cl.exe @C:\Users\asus\AppData\Local\Temp\RSP39E7.tmp" 
+Creating temporary file "C:\Users\asus\AppData\Local\Temp\RSP39E8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LinkStack.pdb" /debug /machine:I386 /out:"Debug/LinkStack.exe" /pdbtype:sept 
+".\Debug\LinkStack.obj"
+]
+Creating command line "link.exe @C:\Users\asus\AppData\Local\Temp\RSP39E8.tmp"
+<h3>Output Window</h3>
+Compiling...
+LinkStack.c
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2061: syntax error : identifier 'initLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(5) : error C2054: expected '(' to follow 's'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2061: syntax error : identifier 'isEmptyLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(15) : error C2054: expected '(' to follow 's'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2061: syntax error : identifier 'getTopLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2143: syntax error : missing ';' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(21) : error C2054: expected '(' to follow 'e'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2061: syntax error : identifier 'clearLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(33) : error C2054: expected '(' to follow 's'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2061: syntax error : identifier 'destroyLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(49) : error C2054: expected '(' to follow 's'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2061: syntax error : identifier 'LStackLength'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2059: syntax error : 'type'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(64) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2061: syntax error : identifier 'pushLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2146: syntax error : missing ';' before identifier 'data'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(79) : error C2054: expected '(' to follow 'data'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2061: syntax error : identifier 'popLStack'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2059: syntax error : ';'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2143: syntax error : missing ')' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2143: syntax error : missing '{' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2143: syntax error : missing ';' before '*'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2059: syntax error : ')'
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2040: 'data' : 'int *' differs in levels of indirection from 'int '
+d:\325\qg\qg训练营第二次培训\qg训练营第二次培训\栈以及栈的应用\栈\代码和头文件\linkstack\linkstack.c(96) : error C2054: expected '(' to follow 'data'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+LinkStack.exe - 52 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
